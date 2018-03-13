@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title></title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">LiDAR La Rioja</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Processing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introduction/">Introduction</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../preparation/">Preparation</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Analysis and treatment</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workbenchs <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../workbenchs/conversion_egm08rednap/">Conversion EGM08_REDNAP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/height_transformation/">Transformating from ellipsoidal to orthometric height</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/siose_zoning/">SIOSE zoning</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/lidar_classification/">LiDAR Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/ndvi_improvement/">NDVI Improvement</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../improvements/">Improvements</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DTM/DSM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_terrain_models/">Digital Terrain Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_elevation_model/">Digital Elevation Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/hillshade/">Shaded relief generation (hillshade)</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_surface_model/">Digital Surface Model</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../downloads/website/">Website</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../downloads/interactive_map/">Interactive Map</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../downloads/ogc_services/">OGC services</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../license/">License</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../about/">About</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../preparation/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../workbenchs/conversion_egm08rednap/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#analysis-and-treatment-of-lidar-data">Analysis and treatment of LiDAR data</a></li>
+            <li class="second-level"><a href="#operations-before-the-classification-processes">Operations before the classification processes:</a></li>
+                
+            <li class="second-level"><a href="#classification-process">Classification process:</a></li>
+                
+            <li class="second-level"><a href="#subsequent-operations-to-the-classification-processes">Subsequent operations to the classification processes:</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<p><br/></p>
+<h1 id="analysis-and-treatment-of-lidar-data">Analysis and treatment of LiDAR data</h1>
+<p><br /></p>
+<p>The analysis and treatment of LiDAR data refers to the whole automatic processes that allow the filtering of overlap points between passes, the identification and filtering of noise points and the automatic classification algorithms.</p>
+<p>The classification methodology proposed is divided into three phases: the first consists in the segmentation of the LAS files according to a simplification of the SIOSE categories (The Spanish Land Use and Land Cover Information System), the second is based on the classification of the cloud of points and the third is based on the calculation of vegetation indexes as an improvement of the classification.
+<br/>
+<br/></p>
+<h3 id="operations-before-the-classification-processes">Operations before the classification processes:</h3>
+<p><br/></p>
+<ul>
+<li>
+<p>Duplicate points are eliminated in the points cloud:</p>
+<p><code>lasduplicate -i [directory][file-name].laz -unique_xyz -olaz -odir [directory]</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>The LAS files are tessellated or tiled in tiles 1x1 km wide and high:</p>
+<p>It is important to tile the files to keep the number of points per file at a reasonable value, in order to use the main memory in the most efficient way and to have the opportunity to take advantage of parallel processing.</p>
+<p>Before processing and in order to avoid edge artifacts, the tiles are created by applying a buffer.</p>
+<p><code>lastile -i [directory][file-name].laz -cores 8 -buffer 50 -tile_size 1000 -reversible -odir [directory] -olaz</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Detection and identification of overlap points to obtain a more constant points cloud.</p>
+<p>Excess points are classified in category 12:</p>
+<p><code>lasoverage -i [directory][file-name].laz -step 1 -odir [directory] -olaz</code> 
+<br/>
+<br/></p>
+<p><img alt="" src="../../img/procesado_analisis_y_tratamiento_img01.png" title="" />
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Detection and classification of noise points according to the intensity values, and if the points are isolated in the points cloud.</p>
+<p>Search for points that have five or fewer points around a 3 x 3 x 3 mesh (with the respective point in the center of the cell), where each cell is four meters in size:</p>
+<p><code>lasnoise -i [directory] [file-name].laz -olaz -step 4 -isolated 5 classify_as 7 -classify_intensity_below_as 5 7 -odir [filename]</code>
+<br/>
+<br/></p>
+</li>
+</ul>
+<h3 id="classification-process">Classification process:</h3>
+<p><br/></p>
+<ol>
+<li>
+<p>SEGMENTATION OF LiDAR FILES BASED ON <em>SIOSE</em> CATEGORIES
+<br/>
+<br/></p>
+<p><a href="http://www.siose.es/">SIOSE</a> <em>Land Occupation Information System of Spain</em>, is a database of land cover in Spain at a scale of 1: 25.000.
+<br/>
+<br/></p>
+<p><img alt="" src="../../img/procesado_analisis_y_tratamiento_img02.png" title="" />
+<br/>
+<br/></p>
+<p>For a better adjustment of the necessary parameters in the land use classification process, we carry out a segmentation of the LiDAR files based on the following simplified SIOSE categories:
+<br/>
+<br/></p>
+<ul>
+<li>Forest (1)</li>
+<li>Scrub, grass, meadow, arable crops and tree crops (2)</li>
+<li>Urban (3)</li>
+<li>Isolated houses (4)</li>
+<li>Rocky areas (5)</li>
+<li>Industrial (6)</li>
+<li>Water (7)
+<br/>
+<br/></li>
+</ul>
+<p>An FME process has been designed to change the simple and composite coverage provided by the SIOSE data model, to the simplified SIOSE categories, and to segment the LiDAR points cloud based on this new categorization.
+<br/>
+<br/></p>
+<p><img alt="" src="../../img/procesado_analisis_y_tratamiento_img03.png" title="" />
+<br/>
+<br/>
+<br/></p>
+<p><em>You can consult the details and the code of the process in the section <a href="../../workbenchs/siose_zoning">Workbenchs &gt; SIOSE zoning</a></em>
+ <br/>
+ <br/></p>
+</li>
+<li>
+<p>DETECTION AND CLASSIFICATION OF <em>GROUND POINTS</em>
+<br/>
+<br/></p>
+<p>The points of the LAS files are classified automatically in <em>ground points</em> and <em>non ground points</em>, according to the classification algorithm implemented in the <a href="https://rapidlasso.com/lastools/">LAStools</a> tool.</p>
+<p>The classification process is based on the progressive reconstruction of the land.</p>
+<p>A first approximation of the surface is established from some of the lower cloud points. From this first approach, a criterion is established (angle and distance) that, if complied with, allows an additional point to be added to the surface:</p>
+<p><code>lasground -i [directory][file-name].laz -odir [directory] -olaz -step [n] -stddev [n] -offset [n] -spike [n] -ignore_class 7 12</code> 
+<br/>
+<br/></p>
+<p>Definition of parameters for the <em>lasground</em> command based on the simplified SIOSE categories:
+<br/>
+<br/></p>
+<table>
+<thead>
+<tr>
+<th align="left">Clase</th>
+<th align="left">Step</th>
+<th align="left">Spike</th>
+<th align="left">Offset</th>
+<th align="left">Standard deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Forest (1)</td>
+<td align="left">5</td>
+<td align="left">0.50</td>
+<td align="left">0.20</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Flat terrain (2)</td>
+<td align="left">10</td>
+<td align="left">1</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Urban city (3)</td>
+<td align="left">25</td>
+<td align="left">0.50</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Urban (town) (3)</td>
+<td align="left">10</td>
+<td align="left">1</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Isolated houses (4)</td>
+<td align="left">8</td>
+<td align="left">1</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Rocky areas (5)</td>
+<td align="left">10</td>
+<td align="left">1</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left">Industrial (6)</td>
+<td align="left">30</td>
+<td align="left">0.50</td>
+<td align="left">0.05</td>
+<td align="left">1</td>
+</tr>
+<tr>
+<td align="left"><br/></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><br/></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>Then the heights of the points are calculated with respect to the ground points:</p>
+<p><code>lasheight -i directory][file-name].laz -classify_below -0.5 7 -classify_above 100.0 7 -classify_between 0 0.5 3 -classify_between 0.5 3 4 -classify_between 3 100.0 5 -ignore_class 7 12 -store_in_user_data</code>
+<br/>
+<br/></p>
+<p>The points of the LAS files are classified automatically in points of <em>'low vegetation'</em>, <em>'medium vegetation'</em>, <em>'high vegetation'</em> and <em>'constructions'</em>:</p>
+<p><code>lasclassify -i [directory][file-name].laz -odir [directory] -olaz -step [n] -planar [n] -ground_offset [n] -ignore_class 7 12</code>  <br />
+<br/>
+<br/></p>
+<p>Definition of parameters for the <code>lasclassify</code> command based on the simplified SIOSE categories:
+<br/>
+<br/></p>
+<table>
+<thead>
+<tr>
+<th align="left">Clase</th>
+<th align="left">Step</th>
+<th align="left">Planar</th>
+<th align="left">Ground Offset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Bosque (1)</td>
+<td align="left">2</td>
+<td align="left">0.40</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Terreno llano (2)</td>
+<td align="left">3</td>
+<td align="left">0.10</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Urbana city (3)</td>
+<td align="left">2</td>
+<td align="left">0.10</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Urbana (town) (3)</td>
+<td align="left">2</td>
+<td align="left">0.10</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Casas aisladas (4)</td>
+<td align="left">2</td>
+<td align="left">0.10</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Roquedos (5)</td>
+<td align="left">3</td>
+<td align="left">0.10</td>
+<td align="left">2</td>
+</tr>
+<tr>
+<td align="left">Industrial (6)</td>
+<td align="left">2</td>
+<td align="left">0.30</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td align="left"><br/></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><br/></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><em>These three processes are included for execution within a workbench, whose details and code can be consulted in the section <a href="../../workbenchs/lidar_classification">Workbenchs &gt; LiDAR Classification</a></em>
+ <br/>
+ <br/></p>
+</li>
+<li>
+<p>CALCULATION OF THE <em>NORMALIZED DIFFERENCE VEGETATION INDEX</em> (NDVI), HOW TO IMPROVE THE CLASSIFICATION
+<br/>
+<br/></p>
+<p>A <a href="https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index"><em>Normalized Difference Vegetation Index (NDVI)</em></a>, is a combination of spectral bands captured by a sensor. It allows to discriminate covers that have a different reflective behavior between two or more bands of the electromagnetic spectrum.</p>
+<p>The NDVI is one of the most used when estimating the quantity, quality and development of the vegetation. It is calculated by means of visible and near infrared light reflected by the vegetation. The calculation of this index is done with reflectivities, but when it is not necessary to grant a physical value to the results, the digital levels are used directly.</p>
+<p>The following expression is used:
+<br/>
+<br/></p>
+<pre><code>NDVI= (IRC-R))/(IRC+R)
+</code></pre>
+<p><br/></p>
+<p>where: <em>IRC</em> is the <em>near infrared</em> response and <em>R</em> is the response in <em>red</em>.
+<br/>
+<br/>
+The NDVI values vary between -1 and 1. The following are the approximate values of the NDVI for the different types of covers, which will serve to establish the classification thresholds:
+<br/>
+<br/></p>
+<p>NO VEGETATION</p>
+<table>
+<thead>
+<tr>
+<th align="left">Water</th>
+<th align="left">Beach</th>
+<th align="left">Roads</th>
+<th align="left">Paths</th>
+<th align="left">Buildings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">&lt; 0</td>
+<td align="left">&lt; 0.05</td>
+<td align="left">&lt; 0.10</td>
+<td align="left">&lt; 0.15</td>
+<td align="left">&lt; 0.10</td>
+</tr>
+</tbody>
+</table>
+<p>VEGETATION</p>
+<table>
+<thead>
+<tr>
+<th align="left">Burned area</th>
+<th align="left">Dunes</th>
+<th align="left">Grass</th>
+<th align="left">Wooded</th>
+<th align="left">Golf course</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">&lt; 0.10</td>
+<td align="left">0.10 - 0.20</td>
+<td align="left">0.20 - 0.30</td>
+<td align="left">0.30 - 0.40</td>
+<td align="left">0.50</td>
+</tr>
+</tbody>
+</table>
+<p>The vegetation index has been used as an improvement of the classification obtained in the classification process.</p>
+<p>To do this, a series of classification conditions are defined as a decision tree that allows erroneously assigned classification values to be corrected.</p>
+<p>The implementation of the decision tree has been carried out in a project in FME.</p>
+<p>Example of condition: For urban points (6), wrongly classified.</p>
+<p><code>clasificación = 6 &amp;&amp; ndvi  &gt; 0.2  &amp;&amp; height  &gt;=0 &amp;&amp; height &lt; 0.5</code>  It is reclassified in <em>'low vegetation'</em> (3)
+<br/>
+<br/></p>
+</li>
+</ol>
+<h3 id="subsequent-operations-to-the-classification-processes">Subsequent operations to the classification processes:</h3>
+<p><br/></p>
+<ul>
+<li>
+<p>Tile union of 1x1 km in the original 2x2 km grids in LAS format.</p>
+<p>The union of 1x1 km tiles to generate 2x2 km squares is done through a process in FME.</p>
+<p>The LAS files corresponding to the grid are loaded and then joined. Subsequently, a cut is made with the corresponding grid sheet, in order to eliminate the buffer zone incorporated in the tiling process.
+<br/>
+<br/></p>
+<p>In this way, all the LAS files (2x2 km) are finally obtained and classified according to the classification proposed by the  <a href="https://www.asprs.org/"><em>American Society for Photogrammetry and Remote Sensing (ASPRS)</em></a>:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Classification</th>
+<th align="left">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">0</td>
+<td align="left">Created, never classified</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">Unclassified</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">Ground</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">Low Vegetation</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">Medium Vegetation</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">High Vegetation</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Building</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">Low Point (noise)</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">Model Key-point (mass point)</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">Water</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">Reserved for ASPRS Definition</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">Reserved for ASPRS Definition</td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">Overlap Points</td>
+</tr>
+<tr>
+<td align="left">13-31</td>
+<td align="left">reserved for ASPRS Definition</td>
+</tr>
+</tbody>
+</table>
+<p><em>You can check the details and the process code in the section <a href="../../workbenchs/ndvi_improvement">Workbenchs &gt; NDVI Improvement</a></em>
+ <br/>
+ <br/></p>
+</li>
+</ul></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

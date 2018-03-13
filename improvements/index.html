@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <title></title>
+
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">LiDAR La Rioja</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Processing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../processing/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../processing/preparation/">Preparation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../processing/analysis_and_treatment/">Analysis and treatment</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workbenchs <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../workbenchs/conversion_egm08rednap/">Conversion EGM08_REDNAP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../workbenchs/height_transformation/">Transformating from ellipsoidal to orthometric height</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../workbenchs/siose_zoning/">SIOSE zoning</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../workbenchs/lidar_classification/">LiDAR Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../workbenchs/ndvi_improvement/">NDVI Improvement</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Improvements</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DTM/DSM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../dtm_dsm/digital_terrain_models/">Digital Terrain Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dtm_dsm/digital_elevation_model/">Digital Elevation Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dtm_dsm/hillshade/">Shaded relief generation (hillshade)</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dtm_dsm/digital_surface_model/">Digital Surface Model</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../downloads/website/">Website</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../downloads/interactive_map/">Interactive Map</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../downloads/ogc_services/">OGC services</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../license/">License</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../about/">About</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../workbenchs/ndvi_improvement/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../dtm_dsm/digital_terrain_models/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#improvements">Improvements</a></li>
+            <li class="second-level"><a href="#ndvi">NDVI</a></li>
+                
+            <li class="second-level"><a href="#warehouses">Warehouses</a></li>
+                
+            <li class="second-level"><a href="#hydrography">Hydrography</a></li>
+                
+            <li class="second-level"><a href="#flood-barriers">Flood barriers</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<p><br/></p>
+<h1 id="improvements">Improvements</h1>
+<p><br /></p>
+<p>We are aware that there is no automatic process for a perfect LiDAR classification.</p>
+<p>Technology also has its limitations. As a result of the capture procedure itself, or because of the behavior that some elements offer when reflecting laser light, we have found some cases or areas in which we believe it is convenient to intervene in a more specific way.</p>
+<p>In the design of our processing we have tried to improve the quality of the classification as far as possible, while reducing to the minimum those areas that require a personalized treatment.</p>
+<p>In order to know the nature of these problems and in order to detect more easily those cases in which they occur, we expose below the casuistry that generates them, pointing to a solution:
+<br />
+<br /></p>
+<h3 id="ndvi">NDVI</h3>
+<p><br /></p>
+<p>In Lidar classification processes, the reflectivity values of some forest formations with dense and of uniform height, are often interpreted as buildings.</p>
+<p>To avoid this confusion, one of the procedures when RGB + Ir information is available is to calculate the <em>Normalized Difference Vegetation Index</em> (NDVI) for each of the cloud points.</p>
+<p>Based on this information and taking into account the number of echoes in each area, it is necessary to determine whether the LiDAR response corresponds to a vegetation area or not.</p>
+<p>This procedure offers very good results in the classification, especially in those areas where there are RGB + Ir thresholds that allow the calculation of sufficiently discriminatory NDVI values.</p>
+<p>However, in many cases, there are disturbances of the signal that produce a decrease in the NDVI value:</p>
+<ul>
+<li>Contaminación por nubes.</li>
+<li>Cloud pollution.</li>
+<li>Effects due to the geometry of the observation (observation outside the nadir).</li>
+<li>Effects produced by lighting (shadows).</li>
+<li>Weather conditions.</li>
+</ul>
+<p>As a consequence, the LiDAR response is strongly conditioned by aspects such as: the time of the shot, the atmospheric conditions, the solar position, the angle of vision and the width of the sensor bands, the slope and exposure of the relief, the type of vegetation, as well as its phenological and physiological condition.</p>
+<p>Particularly in mountainous reliefs, the measured radiance recorded by a sensor from a ground cover on a shaded exposure slope (hidden from the sun), may be considerably smaller, than that measured from the same ground cover located on a sun exposure slope (exposed to the sun).</p>
+<p>This make the calculation of the NDVI vegetational parameter difficult, because the spectral behavior of the vegetation is altered by the presence of shadows (Riaño et al 2003, Eastman 2006), resulting in that the response of the vegetation affected by shades differs a lot from that of the illuminated vegetation, in spectral terms.</p>
+<p>In the following images you can see the effects of this circumstance in the classification, checking the strong correlation that exists between the shadow areas of the image and the points wrongly classified with the value <code>type 6</code> (Building), represented in pink.
+<br />
+<br /></p>
+<p><img alt="" src="../img/mejoras_img01.png" title="" />
+<img alt="" src="../img/mejoras_img02.png" title="" />
+<br />
+<br /></p>
+<p><br />
+To improve the initial results of the classification in these areas, it is necessary to act on the points already classified as Buildings. The NDVI threshold is readjusted, considering at the same time the elevation of the points analyzed, the number of echoes in each zone and the intensity of the signal.</p>
+<p>The result of this new revision can be seen in the following image, in which you can visually verify that the problems detected in the previous phase have been corrected.</p>
+<p><br />
+<br /></p>
+<p><img alt="" src="../img/mejoras_img03.png" title="" />
+<br />
+<br /></p>
+<h3 id="warehouses">Warehouses</h3>
+<p><br />
+We have seen that the results of automatic classification in industrial areas are quite limited, possibly due to the complexity of the elements (corrugated surfaces, roofs where objects exist on the roof), the construction material of the roofs (metal surfaces or highly reflective ones), as well as the proximity between constructions.
+<br />
+<br /></p>
+<p><img alt="" src="../img/mejoras_img04.png" title="" />
+<img alt="" src="../img/mejoras_img05.png" title="" />
+<br />
+<br /></p>
+<p>In addition to the inherent problems of reflectivity, it is necessary to take into account that industrial or agricultural warehouses that are located in isolated areas are not classified correctly, since there is a minimum area of polygon in SIOSE. These are included within larger polygons, so the parameters that are used in classification for the whole area occupied by the SIOSE polygon, are not the most adjusted to discriminate industrial buildings that are isolated.</p>
+<p>For its treatment and correction, the identification and vectorization of constructions has been proposed. In this way you could adjust the automatic process to classify your points within the building category.
+<br />
+<br /></p>
+<h3 id="hydrography">Hydrography</h3>
+<p><br /></p>
+<p>Although in the water the laser pulse used is absorbed and therefore does not produce a return (no return record is obtained), there are some cases, possibly due to the content in the water of particles in suspension, in which it does register a reflection, which translates into an undetermined category point inside the watercourse..</p>
+<p>To avoid this problem, it has been decided to delimit the water courses from the '<em>Water</em>' category of the SIOSE layer and apply the standard classification parameters.</p>
+<p>Taking into account that the precision of the SIOSE layer corresponds to a reference scale of 1: 25,000, some margins do not fit perfectly into the river channel with the accuracy offered by the LiDAR, this means that on the banks of some rivers there are points in their margins or inside them, which are not classified correctly.</p>
+<p>Taking into account that the precision of the SIOSE layer corresponds to a reference scale of 1: 25,000, some margins do not fit perfectly into the river channel with the accuracy offered by the LiDAR, this means that on the banks of some rivers there are points in their margins or inside them, which are not classified correctly.</p>
+<p>To have a proper classification of the interior and marginal areas of water courses, it is proposed to use a hydrographic mask generated from a cartography / orthophoto with an accuracy better than 25 cm, which is not always possible.</p>
+<p>Also related to this question, it is necessary to refer to the existence of very wide fluvial channels lacking, except in exceptional cases, of hydrographic flow. This figure, of fluvial character, different in its nature to a <em>rambla</em> or <em>yasa</em>, and that in all the cartographies tends to be represented and codified as a hydrographic course in all its amplitude, needs to be treated in a specific way for its correct classification, discriminating the area occupied by its channel, normally dry, from the permanent hydrographic flow, if any.
+<br />
+<br /></p>
+<p><img alt="" src="../img/mejoras_img06.png" title="" />
+<img alt="" src="../img/mejoras_img07.png" title="" />
+<br />
+<br /></p>
+<p>Note: <em>In relation to what is indicated in this section, is of great interest the document <a href="http://ambiental.cedex.es/docs/Ingenieria-Civil-142-2006-Aplicaciones-LiDAR.pdf">"Applications of laser remote sensing (LIDAR) in the characterization and management of the fluvial medium"</a> by Fernando Magdaleno Mas and Roberto Martínez Romero</em>.
+<br />
+<br /></p>
+<h3 id="flood-barriers">Flood barriers</h3>
+<p><br /></p>
+<p>It has been observed that some natural and artificial <em>flood barriers</em> are classified as 'low vegetation'. It is a fairly common confusion.</p>
+<p>Although the problem has been corrected by the use of the infrared band, the results obtained are not entirely satisfactory, so it is recommended to detect the location of these structures from other sources of information, for a review of the classification.</p></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '..';
+    </script>
+    <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/require.js"></script>
+    <script src="../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

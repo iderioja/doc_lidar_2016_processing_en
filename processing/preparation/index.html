@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title></title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">LiDAR La Rioja</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Processing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introduction/">Introduction</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Preparation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../analysis_and_treatment/">Analysis and treatment</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workbenchs <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../workbenchs/conversion_egm08rednap/">Conversion EGM08_REDNAP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/height_transformation/">Transformating from ellipsoidal to orthometric height</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/siose_zoning/">SIOSE zoning</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/lidar_classification/">LiDAR Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../workbenchs/ndvi_improvement/">NDVI Improvement</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../improvements/">Improvements</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DTM/DSM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_terrain_models/">Digital Terrain Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_elevation_model/">Digital Elevation Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/hillshade/">Shaded relief generation (hillshade)</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../dtm_dsm/digital_surface_model/">Digital Surface Model</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../downloads/website/">Website</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../downloads/interactive_map/">Interactive Map</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../downloads/ogc_services/">OGC services</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../license/">License</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../about/">About</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../introduction/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../analysis_and_treatment/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#lidar-files-preparation">Lidar files preparation</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<p><br /></p>
+<h1 id="lidar-files-preparation">Lidar files preparation</h1>
+<p><br /></p>
+<p>For the preparation of the LiDAR files for their processing, the following steps have been followed:
+<br/>
+<br/></p>
+<ol>
+<li>
+<p>LAS files conversion into LAZ (compressed format), for the processing and storage of data in order to reduce the storage space as much as possible, without losing data.</p>
+<p><code>las2las -i [directory][file-name].las -olaz</code>
+<br/>
+<br/>
+The LAS files corresponding to the transverse passes are not processed, they are only considered in the quality control processes. 
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Generation of indexes.</p>
+<p>Access to data is optimized.</p>
+<p><code>lasindex -i [directory][file-name].laz -cores [core-number]</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Information of the archives.</p>
+<p>LAZ files information is stored in a text file.</p>
+<p><code>lasinfo -i [directory][file-name].laz - otxt -cd -odir [directory] -cores [core-number]</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Overlay of flight lines. The vertical and horizontal alignment between flight lines is checked.</p>
+<p>Vertical and horizontal alignment between lines.</p>
+<p><code>lasoverlap -i [directory][file-name].laz -step 2 -values -oasc</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Transformation of ellipsoidal to orthometric coordinates.</p>
+<p>The conversion can be done using the LASTools commands or through a process designed with the FME Desktop tool (Safe software, British Columbia).
+<br/>
+<br/></p>
+<p>[LASTools]
+<br/>
+<br/></p>
+<ul>
+<li>
+<p>First of all, the IGN’s text file <a href="ftp://ftp.geodesia.ign.es/geoide/ascii/">EGM08-REDNAP.asc</a>, expressed in the official ASCII download format, in a BIL format raster file, using the <a href="http://www.gdal.org/">GDAL</a> library.</p>
+<p>The ASCII file header information contains a set of keywords (NCOLS, NROWS, XLLCENTER, YLLCENTER, CELLSIZE, and NODATA_VALUE), followed by the values of the cells in a higher order of rows.</p>
+<p>The BIL binary file is a storage scheme that allows you to store the pixel values of an image in a file. </p>
+<p><code>gdal_translate -of EHdr EGM08_REDNAP.asc EGM08_REDNAP.bil</code>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>The file is transformed from the BIL format to LAZ, to then apply the geoid model to the point cloud.</p>
+<p><code>las2las -v -i EGM08_REDNAP.bil -target_utm 30N -target_precision 0.001 -odix "_utm30N" -olaz -longlat</code></p>
+<p><code>lasheight -v -i [ruta][fichero].laz -ground_points EGM08_REDNAP_utm30N.laz -replace_z -olaz -odir [ruta_salida] -all_ground_points</code>
+<br/>
+<br/></p>
+</li>
+</ul>
+<p>[FME]
+<br/>
+<br/></p>
+<ul>
+<li>
+<p>First of all, an FME <code>Convert_GRD_from Ngrid.fmw</code> is executed, which allows transforming the official file <a href="ftp://ftp.geodesia.ign.es/geoide/GRD/">EGM08_REDNAP.grd</a> from the IGN, into a text GRD file.
+<br/>
+<br/></p>
+<p><em>You can check the details and the process code in the section <a href="../../workbenchs/conversion_egm08rednap">Workbenchs &gt; Conversion EGM08_REDNAP</a></em>
+<br/>
+<br/></p>
+</li>
+<li>
+<p>Second, a GDC file is configured with the path where the GRD file is located.</p>
+<p>The EGM08_REDNAP.grd file that is generated in GridData must be placed in C:\Program Files \ FME \ Reproject \ GridData \</p>
+<p>In C: \ Program Files \ FME \ Reproject \ GeoidHeightGrids \ Spain \ there is a file EGM08_REDNAP.gdc with the path of the previous file:</p>
+<pre><code># ftp://ftp.geodesia.ign.es/geoide/
+..\..\GridData\EGM08_REDNAP.grd
+</code></pre>
+<p><br/></p>
+</li>
+<li>
+<p>Finally, the FME project <code>LASelipsoide_LASgeoide.fmw</code> is executed, transforming the LAZ files from ellipsoidal heights into orthometric heights.</p>
+<p>It is necessary to take into account that when the transformation to orthometric heights is performed with FME, the scale of the LAS files is modified. For this reason, the files must be scaled.</p>
+<p>Rescaling points in LiDAR files.</p>
+<p><code>las2las -i [directory][file-name].laz -rescale 0.01 0.01 0.01 -olaz -odir [directory]</code>
+<br/>
+<br/></p>
+<p><em>You can consult the details and the code of the process, in the section <a href="../../workbenchs/height_transformation">Workbenchs &gt; Transformating from ellipsoidal to orthometric height</a></em>
+<br/>
+<br/></p>
+</li>
+</ul>
+</li>
+<li>
+<p>A transformation check is performed with external terrain control points, verifying the correct position of the information with respect to the real terrain.</p>
+<p><code>lascontrol -i [directory][file-name].laz -cp [directory][file-name].csv -parse xyz -cp_out [directory][file-name].txt</code></p>
+</li>
+</ol></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

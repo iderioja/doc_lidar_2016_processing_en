@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/processing/introduction/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/processing/preparation/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/processing/analysis_and_treatment/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/workbenchs/conversion_egm08rednap/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/workbenchs/height_transformation/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/workbenchs/siose_zoning/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/workbenchs/lidar_classification/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/workbenchs/ndvi_improvement/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/improvements/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/dtm_dsm/digital_terrain_models/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dtm_dsm/digital_elevation_model/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dtm_dsm/hillshade/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/dtm_dsm/digital_surface_model/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/downloads/website/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/downloads/interactive_map/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/downloads/ogc_services/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/license/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/about/</loc>
+     <lastmod>2018-03-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>
